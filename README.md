@@ -1,27 +1,35 @@
 # Iris Data Visualization
 
-## 1. Problem Statement
-The objective of this project is to visualise patterns in the Iris dataset using different types of plots to better understand relationships between features.
+## Problem Statement
+The objective of this project is to visualize patterns in the Iris dataset using different types of plots to understand relationships between features.
 
-## 2. Dataset
+## Dataset
 - Dataset: Iris Dataset
 - Source: Kaggle / Built-in dataset
+- Description: Contains measurements such as sepal length, sepal width, petal length, petal width, and species.
 
-## 3. Approach
+## Approach
 - Loaded and explored the dataset
 - Performed basic preprocessing (column renaming if required)
 - Created visualizations:
-  - Bar chart (species distribution)
-  - Histogram (feature distribution)
-  - Scatter plot (feature relationships)
-- Compared features using visual analysis
+  - Bar chart for species distribution
+  - Histogram for feature distribution
+  - Scatter plot for feature relationships
+- Compared features using visualization techniques
 
-## 4. Results / Insights
-- The Setosa species is clearly distinguishable due to the smaller petal size
+## Tools Used
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Google Colab
+
+## Results / Insights
+- Setosa species is clearly distinguishable due to smaller petal size
 - Sepal length and petal length show a positive relationship
 - Data is evenly distributed among species
 - Visualizations help identify clear patterns and separations
-
+- 
 ## 5. Files
 - IRIS DATA VISUALIZATION.ipynb
 - iris.csv
